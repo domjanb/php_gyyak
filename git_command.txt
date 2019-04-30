@@ -6,3 +6,32 @@ git status
 git add git_command.txt
 
 git commit -m "git parancsok 1"
+
+'hash file tipusa (hash elsõ 4 karaktere kell/hash az objectben van)
+git cat-file e2e3 -t 
+
+'hash file tipusa (hash elsõ 4 karaktere kell)
+git cat-file e2e3 -p
+
+
+
+az aktuális módosítás gyökere
+git rev-parse HEAD
+
+
+git log 
+
+lognak csak az érdemi része
+git log 9019 --oneline
+
+
+
+VISSZAVONNI AZ UTOLSÓ MÓDOSÍTÁST
+git reset --soft HEAD^
+
+
+VISSZAVONNI AZ UTOLSÓ 2DB MÓDOSÍTÁST
+git reset --soft HEAD^^
+vagy
+git reset --soft HEAD~2
+

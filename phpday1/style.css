@@ -1,0 +1,36 @@
+#page{
+    border: 1px dotted black;
+    background-color: #cccccc;
+    width: 1000px;
+}
+#header{
+    border:  1px solid black;
+    background-color: #cccccc;
+    height: 50px;
+    padding-left: 10px;
+}
+#main{
+    border: 1px solid black;
+    background-color: #ccffcc;
+    min-height: 400px;
+    
+}
+#left{
+    background-color: #eeffee;
+    float: left;
+    padding-left: 10px;
+}
+#middle{
+    border-left:  2px solid black;
+    background-color: #ccffcc;
+    margin-left: 300px;
+    min-height: 400px;
+    padding-left: 10px;
+}
+#footer{
+    border: 1px solid black;
+    background-color: #cccccc;
+    height: 50px;
+    clear: both;
+    padding-left: 10px;
+}

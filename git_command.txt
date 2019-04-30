@@ -29,12 +29,14 @@ lognak csak az érdemi része
 git log 9019 --oneline
 
 
+VISSZAVONNI AZ UTOLSÓ  MÓDOSÍTÁST HA MÉG NINCS COMMITELVE
+git reset git_command.txt
 
-VISSZAVONNI AZ UTOLSÓ MÓDOSÍTÁST
+VISSZAVONNI AZ UTOLSÓ COMMITELT MÓDOSÍTÁST
 git reset --soft HEAD^
 
 
-VISSZAVONNI AZ UTOLSÓ 2DB MÓDOSÍTÁST
+VISSZAVONNI AZ UTOLSÓ 2DB COMMITELT MÓDOSÍTÁST
 git reset --soft HEAD^^
 vagy
 git reset --soft HEAD~2
@@ -81,3 +83,9 @@ git pull origin master --allow-unrelated-histories
 
 ha még nincs reponk a gépen:
 git clone https://github.com/domjanb/php_gyyak.git
+
+
+
+mi modosult az elõzõ commitolás óta
+git diff
+git diff fileneve

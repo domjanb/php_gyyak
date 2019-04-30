@@ -18,6 +18,10 @@ git cat-file e2e3 -p
 az aktuális módosítás gyökere
 git rev-parse HEAD
 
+VAGY 
+git cat-file -p HEAD
+
+
 
 git log 
 

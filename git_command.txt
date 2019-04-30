@@ -1,0 +1,8 @@
+git init
+
+
+git status
+
+git add git_command.txt
+
+git commit -m "git parancsok 1"

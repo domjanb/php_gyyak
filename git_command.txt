@@ -89,3 +89,12 @@ git clone https://github.com/domjanb/php_gyyak.git
 mi modosult az elõzõ commitolás óta
 git diff
 git diff fileneve
+
+branch lekérdezése
+git branch 
+
+branch létrehozása
+git clean_up
+
+branchre váltás
+git checkout clean_up

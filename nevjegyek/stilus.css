@@ -1,0 +1,40 @@
+body {
+	font-size: 14px;
+	font-family: Georgia;
+	background-color: orange;
+}
+article {
+	float: left;
+	width: 350px;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: gold;
+	border: solid 2px black;
+}
+a {
+	color: red;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+table {
+	margin-top: 20px;
+	border: solid 2px black;
+	border-collapse: collapse;
+}
+tr:nth-child(2n) {
+	background-color:#fff;
+}
+tr:nth-child(2n+1) {
+	background-color:#ddd;
+}
+th {
+	background-color:#f00;
+}
+th, td {
+	padding: 5px;
+	border: solid 1px black;
+}

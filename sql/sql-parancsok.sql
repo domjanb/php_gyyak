@@ -48,4 +48,23 @@ ORDER BY oszlop1 DESC, oszlop2 ASC
 -- Adott darabszám lekérése
 SELECT *
 FROM tablanev
-LIMIT 3
+LIMIT 10
+
+SELECT *
+FROM tablanev
+LIMIT 10, 10
+
+-- Rekord beszúrása
+INSERT INTO tablanev
+(oszlop1, oszlop2, oszlop3)
+VALUES
+('ertek1', ertek2, ertek3)
+
+-- Rekordok törlése
+DELETE FROM tablanev
+WHERE feltetel
+
+-- Rekordok módosítása
+UPDATE tablanev
+SET oszlop1 = ertek1, oszlop2 = 'ertek2'
+WHERE feltetel
